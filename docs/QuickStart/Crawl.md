@@ -14,7 +14,7 @@
 3. [ページネータ][Paginations]により最初期の一覧へ移動する:  
    例えば 100件の記事を20件ごとに表示する場合、5番目の区間が最初期である。
 4. 以下の文をコンソールに入力・実行し、ポップアップブロッカーを起動する:  
-   `window.open(document.location.origin)`
+   `window.open(document.location.origin);`
 5. ブラウザアドレス欄右端のポップアップブロックアイコンをクリックする:  
    タブを閉じるまで、ポップアップブロックを一時無効とした。
 6. [crawl.js](../../src/crawl.js) をコンソールにペースト、実行する:  
@@ -32,6 +32,6 @@
 
 以上で、記事一覧におけるひとつの区間の情報を[内部領域][localStorage]へ蓄積した。
 次の区間へ進んでいきたいところだが、一旦データを[集約](./Aggregate.md)しておく。
-なぜなら、[期間](./index.md#plannning)で説明した各種問題を回避するためである。
+なぜなら、[期間](./index.md#planning)で説明した各種問題を回避するためである。
 
 [localStorage]: https://developer.mozilla.org/docs/Web/API/Window/localStorage
