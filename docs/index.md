@@ -46,3 +46,9 @@ EU 圏外では今でも「ユーザーをつなぎとめておく戦略」が�
 - [x] 複数記事内における動画の一括取得
 - [x] [複数記事の一括取得](./QuickStart/Crawl.md)
 - [ ] オリジナル画像(4K品質)の一括取得
+
+[Microsoft Edge 拡張機能][Edge extensions]について調べる機会があった。
+思っていたより「簡単じゃねえか」という印象である。
+本プロジェクトを拡張機能にすれば、回りくどい操作を回避できるだろう。
+
+[Edge extensions]: https://learn.microsoft.com/microsoft-edge/extensions-chromium/landing/
