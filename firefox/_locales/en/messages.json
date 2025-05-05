@@ -1,0 +1,30 @@
+{ "extensionName": {
+    "message":"Cabbage",
+    "description":"Name of the extension"
+  },
+  "extensionDescription": {
+    "message":"Content retriever for a sequence of articles",
+    "description":"Description of the extension"
+  },
+  "gather": {
+    "message":"Gathering - do not touch",
+    "description":"Status for gathering metainfo"
+  },
+  "download": {
+    "message":"Downloading $INDEX$/$LENGTH$ in #$SECTION$",
+    "description":"Status for downloading contents",
+    "placeholders": {
+        "index": { "content":"$1", "example":"6" },
+       "length": { "content":"$2", "example":"55" },
+      "section": { "content":"$3", "example":"5237199" }
+    }
+  },
+  "stop": {
+    "message":"Stopped - navigate to next article before you continue",
+    "description":"Notification content for a temporal stop"
+  },
+  "complete": {
+    "message":"Completed - we have reached to the latest article",
+    "description":"Notification content for the completion"
+  }
+}

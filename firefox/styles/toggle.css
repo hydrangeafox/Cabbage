@@ -1,0 +1,46 @@
+/*
+ * A toggle button style similar to the Vuetify's one.
+ * See https://developer.mozilla.org/en-US/docs/Web/CSS/:checked#toggling_elements_with_a_hidden_checkbox
+ */
+input[type="checkbox"].toggle {
+  display:none;
+}
+
+.toggle + label.toggle {
+  transition-property:border-color,background-color;
+  transition-duration:250ms;
+}
+.toggle + label.toggle {
+           padding:2px 8px 4px;
+     border-radius:4px;
+            border:1px #b1b1b1 solid;
+  background-color:light-dark(#fbfbfb,var(--bg-default));
+}
+.toggle + label.toggle:hover {
+  background-color:light-dark(#ebebeb,var(--bg-hover));
+}
+.toggle + label.toggle:active {
+  background-color:light-dark(#d4d4d4,var(--bg-active));
+}
+.toggle:checked + label.toggle {
+             color:chocolate;
+      border-color:gold;
+  background-color:lemonchiffon;
+}
+.toggle:checked + label.toggle:hover {
+             color:sienna;
+      border-color:goldenrod;
+  background-color:yellow;
+}
+.toggle + label.toggle::before {
+  content:'Start'
+}
+.toggle:checked + label.toggle::before {
+  content:'Pause'
+}
+
+@media(prefers-color-scheme:dark) {
+  .toggle + label.toggle {
+    border-style:none;
+  }
+}

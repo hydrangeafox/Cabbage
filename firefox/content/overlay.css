@@ -1,0 +1,19 @@
+#cabbage-pinned {
+   padding:2px; background-color:gold;
+  position:fixed; top:56px; left:4px; z-index:9990;
+}
+
+#cabbage-error {
+   padding:2px 16px 2px 2px; max-width:320px; font-size:smaller;
+    border:1px currentColor solid; border-radius:4px;
+  position:fixed; top:56px; right:4px; z-index:9999;
+     color:deeppink; background-color:lavenderblush;
+}
+#cabbage-error > .closer {
+  font-size:larger; font-weight:bolder; cursor:pointer;
+   position:absolute; top:0; right:4px;
+    opacity:0.5; color:hotpink;
+}
+#cabbage-error > .closer:hover {
+    opacity:unset;
+}

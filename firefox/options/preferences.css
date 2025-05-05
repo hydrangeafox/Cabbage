@@ -1,0 +1,28 @@
+/*
+ * A set of styles for the Preferences page
+ */
+@import url(../styles/firefox.css);
+@import url(../lib/note.css);
+
+body {
+  background-color:light-dark(#ffffff,#23222b);
+}
+.toolbar {
+  display:flex; align-items:baseline;
+}
+.toolbar > label {
+  font-weight:bold;
+}
+.toolbar > button[type="submit"] {
+  margin-left:auto; margin-bottom:unset;
+}
+#sheet {
+     display:flex; flex-direction:column; gap:4px;
+  min-height:240px; padding:2px 4px 0;
+}
+#raw {
+  flex:auto; padding:4px 6px;
+}
+#notes {
+  margin:0 4px;
+}

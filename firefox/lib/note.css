@@ -1,0 +1,31 @@
+/* A style for ephemeral feedback elements */
+.toast {
+     width:56px; padding:2px 4px; font-weight:bolder; text-align:center;
+    border:1px currentColor solid; border-radius:4px;
+  position:fixed; bottom:4px; left:calc(50% - 28px);
+}
+
+/* A set of style for alert elements */
+.notice {
+   padding:2px 24px 2px 4px;
+    border:1px currentColor solid; border-radius:4px;
+  position:relative; /* Act as a containing block */
+}
+.notice > .closer {
+ font-size:large; font-weight:bolder; cursor:pointer;
+  position:absolute; top:-2px; right:4px;
+   opacity:0.5;
+}
+.notice > .closer:hover {
+   opacity:unset;
+}
+
+/* A set of styles which implies their underlying semantics */
+.success {
+  background-color:light-dark(#f5fffaf0,#333333f0);
+             color:light-dark(limegreen,greenyellow);
+}
+.error {
+  background-color:light-dark(lavenderblush,#333333f0);
+             color:light-dark(deeppink,hotpink);
+}

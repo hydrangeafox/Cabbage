@@ -1,0 +1,29 @@
+@import url(../styles/firefox.css);
+@import url(../styles/toggle.css);
+@import url(../lib/note.css);
+
+body {
+  padding:4px 8px;
+}
+
+form#controls > .entry {
+  display:flex; align-items:center; gap:4px;
+}
+form#controls > .entry > .toggle + label.toggle {
+  flex:auto; text-align:center;
+}
+
+#status {
+  margin:0 0 6px; font-size:smaller; opacity:0.6;
+}
+
+ol#articles {
+      margin:0; padding:0 0 0 24px;
+  max-height:calc(100vh - 88px); overflow-y:auto;
+}
+ol#articles > li.notice {
+  padding:0 24px 4px 0; border:none; background-color:unset;
+}
+ol#articles > li.notice > .closer {
+  top:-4px;
+}

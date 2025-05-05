@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="./panel.css" />
+</head>
+<body>
+<form id="controls">
+  <div class="browser-style entry">
+    <label for="left">Left</label>
+    <input  id="left" type="range" min="0" max="20" value="20" title="20" />
+  </div>
+  <div class="browser-style entry">
+    <input  id="running" class="toggle" type="checkbox" />
+    <label for="running" class="toggle" />
+  </div>
+</form>
+<section id="status">Ready</section>
+<ol id="articles" reversed></ol>
+<script type="module" src="./panel.js"></script>
+</body>
+</html>
