@@ -52,3 +52,7 @@ EU 圏外では今でも「ユーザーをつなぎとめておく戦略」が�
 本プロジェクトを拡張機能にすれば、回りくどい操作を回避できるだろう。
 
 [Edge extensions]: https://learn.microsoft.com/microsoft-edge/extensions-chromium/landing/
+
+ということで [Firefox 版拡張機能](./Firefox/index.md)を作成してみた。
+これまでのものよりは「一般ユーザー向け」である。
+ぜひ、使ってみてほしい。
